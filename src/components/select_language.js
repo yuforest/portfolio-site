@@ -8,12 +8,12 @@ const SelectLanguage = props => {
       to={lang.link}
       key={lang.langKey}
       style={{
-        color: props.current == lang.langKey ? "#111188" : "#C1EEFB",
+        color: props.current == lang.langKey ? "#1F3FFF" : "#ddd",
         textDecoration: `none`,
         textTransform: `uppercase`,
         padding: `5px 8px`,
-        fontWeight: props.current == lang.langKey ? `900` : `700`,
-        fontSize: `16px`
+        fontWeight: props.current == lang.langKey ? `900` : `normal`,
+        fontSize: `16px`,
       }}
     >
       <li selected={lang.selected} style={{ listStyleType: `none` }}>

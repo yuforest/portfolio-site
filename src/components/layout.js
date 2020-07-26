@@ -10,13 +10,12 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "typeface-noto-sans"
 import { getCurrentLangKey, getLangs, getUrlForLang } from "ptz-i18n"
-import { IntlProvider } from "react-intl"
 
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
 
-const Layout = ({ children, location, i18nMessages }) => {
+const Layout = ({ children, location }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {

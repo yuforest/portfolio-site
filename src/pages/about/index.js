@@ -4,6 +4,7 @@ import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import H2Section from "../../components/h2_section"
 import SkillGraphs from '../../components/skill_graphs'
+import BorderBox from "../../components/border_box"
 
 
 const About = props => (
@@ -25,19 +26,11 @@ const About = props => (
     </H2Section>
     <H2Section title="言語・フレームワーク">
       <div>
-        <div
-          style={{
-            color: `#F47064`,
-            fontWeight: `bold`,
-            border: `1px solid #F47064`,
-            display: `inline-block`,
-            padding: `15px`,
-          }}
-        >
+        <BorderBox>
           <p>Level1: 少し触ったことがある</p>
           <p>Level2: 調べたり人に聞きながら開発ができる</p>
           <p>Level3: 日常的に使って開発している</p>
-        </div>
+        </BorderBox>
         <SkillGraphs />
       </div>
     </H2Section>

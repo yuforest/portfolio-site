@@ -2,16 +2,10 @@ import React from "react"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
-import styled from "styled-components"
 import SkillGraphs from "../../components/skill_graphs"
 import H2Section from "../../components/h2_section"
-const Section = styled.section`
-  margin-top: 20px;
-`
+import BorderBox from "../../components/border_box"
 
-const H2 = styled.h2`
-  margin-bottom: 10px;
-`
 const About = props => (
   <Layout location={props.location}>
     <SEO title="Page two" />
@@ -36,19 +30,11 @@ const About = props => (
     </H2Section>
     <H2Section title="Technology">
       <div>
-        <div
-          style={{
-            color: `#F47064`,
-            fontWeight: `bold`,
-            border: `1px solid #F47064`,
-            display: `inline-block`,
-            padding: `15px`,
-          }}
-        >
+        <BorderBox>
           <p>Level1: Novice</p>
           <p>Level2: Have used it several times</p>
           <p>Level3: I often develop using it</p>
-        </div>
+        </BorderBox>
         <SkillGraphs />
       </div>
     </H2Section>

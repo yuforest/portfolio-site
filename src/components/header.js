@@ -5,7 +5,11 @@ import HeaderLink from "../components/header_link.js"
 import SelectLanguage from "./select_language.js"
 import "typeface-noto-sans"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faExternalLinkAlt, faBars } from "@fortawesome/free-solid-svg-icons"
+import {
+  faExternalLinkAlt,
+  faBars,
+  faTimes,
+} from "@fortawesome/free-solid-svg-icons"
 import "./header.css"
 
 class Header extends Component {
@@ -146,6 +150,7 @@ class Header extends Component {
                   color: `white`,
                   textDecoration: `none`,
                   fontSize: `1rem`,
+                  padding: `5px 10px`,
                 }}
                 target="_blank"
               >
@@ -173,7 +178,21 @@ class Header extends Component {
             >
               <FontAwesomeIcon
                 icon={faBars}
-                style={{ fontSize: `24px`, color: `white`, marginLeft: `13px` }}
+                style={{
+                  fontSize: `24px`,
+                  color: `white`,
+                  marginLeft: `13px`,
+                  display: this.state.menu ? "none" : "block",
+                }}
+              />
+              <FontAwesomeIcon
+                icon={faTimes}
+                style={{
+                  fontSize: `24px`,
+                  color: `white`,
+                  marginLeft: `13px`,
+                  display: this.state.menu ? "block" : "none",
+                }}
               />
             </div>
           </div>
