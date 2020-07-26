@@ -21,7 +21,6 @@ class Header extends Component {
     this.setState({
       [side]: !this.state.menu,
     })
-    console.log(this.state.menu)
   }
   render() {
     let { url, siteTitle, langs } = this.props
@@ -51,7 +50,7 @@ class Header extends Component {
           </h1>
           <div className="header-links-container">
             <div
-              style={{ display: this.state.menu ? "flex" : "none" }}
+              style={{ display: this.state.menu ? "flex" : "none", opacity: `80%` }}
               className="header-mobile-links"
             >
               <HeaderLink
@@ -99,6 +98,7 @@ class Header extends Component {
                   opacity: `100%`,
                 }}
                 target="_blank"
+                rel="noreferrer"
               >
                 Blog{` `}
                 <FontAwesomeIcon
@@ -153,6 +153,7 @@ class Header extends Component {
                   padding: `5px 10px`,
                 }}
                 target="_blank"
+                rel="noreferrer"
               >
                 Blog{` `}
                 <FontAwesomeIcon
@@ -172,16 +173,16 @@ class Header extends Component {
             <div>
               <SelectLanguage langs={langs} current={currentLang} />
             </div>
-            <div
+            <button
               onClick={this.toggleDrawer("menu")}
               className="header-hamburger"
+              href="#"
             >
               <FontAwesomeIcon
                 icon={faBars}
                 style={{
                   fontSize: `24px`,
                   color: `white`,
-                  marginLeft: `13px`,
                   display: this.state.menu ? "none" : "block",
                 }}
               />
@@ -190,11 +191,10 @@ class Header extends Component {
                 style={{
                   fontSize: `24px`,
                   color: `white`,
-                  marginLeft: `13px`,
                   display: this.state.menu ? "block" : "none",
                 }}
               />
-            </div>
+            </button>
           </div>
         </div>
       </header>

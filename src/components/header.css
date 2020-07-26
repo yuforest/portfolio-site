@@ -1,6 +1,6 @@
 .site-title-container {
   margin: 0 auto;
-  max-width: 960;
+  max-width: 960px;
   padding: 20px 20px;
   display: flex;
   justify-content: space-between;
@@ -25,8 +25,16 @@
   display: flex;
   background-color: #666;
   padding: 20px;
-  opacity: 80%;
   flex-flow: column;
+}
+.header-hamburger {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  margin-left: 13px;
+}
+.header-hamburger:focus {
+  outline: 0;
 }
 
 @media screen and (max-width: 768px)  {

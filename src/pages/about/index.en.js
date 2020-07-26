@@ -13,14 +13,15 @@ const About = props => (
       <p>I'm Web developer living in Tokyo.</p>
       <p>
         After I graduated collage, I started my first career working at railway
-        company. I retired the company in the first year, and started career as
-        web developer.(during vacant time I traveled Thailand for a month.)
+        company. But I retired the company in the first year, and started career
+        as web developer.(I had a little time to spare so I went on a trip to
+        Thailand for about a month)
       </p>
       <p>
         I worked for first company as web developer for a year and half. In that
         company, I engaged in the development of web applictions and websites
         using Ruby on Rails, Vue.js, WordPress and so on. After thet I retired
-        company and started working as freelance, and developing my service.
+        that company, I started working as freelance and developing my service.
       </p>
       <p>
         I made this site using Gatsby.js.(I wanted to use framework I have never

@@ -6,10 +6,10 @@ import "./card.css"
 
 const HeaderLink = ({ name, description, imgSrc, link }) => (
   <div className="card">
-    <img src={imgSrc} alt="service image" />
+    <img src={imgSrc} alt="service" />
     <div style={{ margin: `10px` }}>
       <h3 style={{ fontSize: `1rem` }}>
-        <a href={link} target="_blank" className="card-link">
+        <a href={link} target="_blank" rel="noreferrer" className="card-link">
           {name} <FontAwesomeIcon icon={faExternalLinkAlt} />
         </a>
       </h3>
