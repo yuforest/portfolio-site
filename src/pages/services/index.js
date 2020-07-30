@@ -16,25 +16,7 @@ const Services = props => (
           name="クズ男データベース"
           description="日常生活の中でクズだと思った男性について個人の中傷にならない範囲で情報を共有する投稿サイトです。"
           imgSrc="https://www.pakutaso.com/shared/img/thumb/MIZUHO19217003_TP_V.jpg"
-          link="#"
-        />
-        <Card
-          name="クズ男データベース"
-          description="日常生活の中でクズだと思った男性について個人の中傷にならない範囲で情報を共有する投稿サイトです。"
-          imgSrc="https://www.pakutaso.com/shared/img/thumb/MIZUHO19217003_TP_V.jpg"
-          link="#"
-        />
-        <Card
-          name="クズ男データベース"
-          description="日常生活の中でクズだと思った男性について個人の中傷にならない範囲で情報を共有する投稿サイトです。"
-          imgSrc="https://www.pakutaso.com/shared/img/thumb/MIZUHO19217003_TP_V.jpg"
-          link="#"
-        />
-        <Card
-          name="クズ男データベース"
-          description="日常生活の中でクズだと思った男性について個人の中傷にならない範囲で情報を共有する投稿サイトです。"
-          imgSrc="https://www.pakutaso.com/shared/img/thumb/MIZUHO19217003_TP_V.jpg"
-          link="#"
+          link="https://trash-man-db.forest-services.net/"
         />
       </div>
     </H2Section>
