@@ -20,14 +20,14 @@ const About = props => (
       <p>
         I worked for first company as web developer for a year and half. In that
         company, I engaged in the development of web applictions and websites
-        using Ruby on Rails, Vue.js, WordPress and so on. After thet I retired
+        using Ruby on Rails, Vue.js, WordPress and so on. After I retired
         that company, I started working as freelance and developing my service.
       </p>
       <p>
         I made this site using Gatsby.js.(I wanted to use framework I have never
         used.)
       </p>
-      <p>The technologies I've used in thw past are as follows.</p>
+      <p>The technologies I've used in the past are as follows.</p>
     </H2Section>
     <H2Section title="Technology">
       <div>
