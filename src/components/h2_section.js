@@ -3,7 +3,7 @@ import styled from "styled-components"
 import PropTypes from "prop-types"
 
 const Section = styled.section`
-  margin-top: 15px;
+  margin-top: 25px;
 `
 
 const H2 = styled.h2`

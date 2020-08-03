@@ -5,6 +5,7 @@ import SEO from "../../components/seo"
 import H2Section from "../../components/h2_section"
 import SkillGraphs from '../../components/skill_graphs'
 import BorderBox from "../../components/border_box"
+import LanguageGraphs from "../../components/language_graphs"
 
 
 const About = props => (
@@ -32,6 +33,16 @@ const About = props => (
           <p>Level3: 日常的に使って開発している</p>
         </BorderBox>
         <SkillGraphs />
+      </div>
+    </H2Section>
+    <H2Section title="語学">
+      <div>
+        <BorderBox>
+          <p>Level1: 単語レベルなら少しわかる</p>
+          <p>Level2: 少しだけ話せる</p>
+          <p>Level3: 普通に話せる</p>
+        </BorderBox>
+        <LanguageGraphs lang="ja" />
       </div>
     </H2Section>
   </Layout>

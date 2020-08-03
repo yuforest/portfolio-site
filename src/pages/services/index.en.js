@@ -9,7 +9,7 @@ import "./service.css"
 const Services = props => (
   <Layout location={props.location}>
     <SEO title="Services" />
-    <H2Section title="運営サービス一覧">
+    <H2Section title="Services">
       <div className="card-wrapper">
         <Card
           name="Kuzuo Database"

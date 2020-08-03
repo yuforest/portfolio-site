@@ -14,7 +14,6 @@ const ContactForm = () => (
     <input type="hidden" name="form-name" value="contact" />
     <InputField name="name" label="Name" />
     <InputField name="email" label="Email" />
-    <InputField name="subject" label="Subject" />
     <InputArea name="content" label="Content" />
     <button
       style={{
