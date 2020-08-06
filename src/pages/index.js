@@ -22,7 +22,7 @@ const IndexPage = props => {
         <ButtonLink to="/services">もっと見る</ButtonLink>
       </H2Section>
       <H2Section title="Contact">
-        <p>SNSはこちら</p>
+        <p>SNSや他のサイトはこちら</p>
         <SnsLinks />
         <ButtonLink to="/contact">コンタクトフォームから連絡</ButtonLink>
       </H2Section>

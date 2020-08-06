@@ -22,7 +22,7 @@ const About = props => (
         I worked for first company as web developer for a year and half. In that
         company, I engaged in the development of web applictions and websites
         using Ruby on Rails, Vue.js, WordPress and so on. After that,
-        I started working as freelance and developing my service.
+        I started working as freelance and developing my services.
       </p>
       <p>
         I made this site using Gatsby.js.(I wanted to use framework I have never

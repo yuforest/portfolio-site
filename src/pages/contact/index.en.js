@@ -9,7 +9,7 @@ import ContactForm from "../../components/contact_form_en"
 const Contact = props => (
   <Layout location={props.location}>
     <SEO title="Page two" />
-    <H2Section title="SNS">
+    <H2Section title="SNS and other sites.">
       <SnsLinks />
     </H2Section>
     <H2Section title="Contact Form">
