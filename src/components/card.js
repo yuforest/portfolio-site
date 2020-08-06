@@ -6,7 +6,13 @@ import "./card.css"
 
 const HeaderLink = ({ name, description, imgSrc, link }) => (
   <div className="card">
-    <img src={imgSrc} alt="service" />
+    <div style={{ height: `150px` }}>
+      <img
+        src={imgSrc}
+        alt="service"
+        style={{ width: `100%`, height: `100%`, objectFit: `cover` }}
+      />
+    </div>
     <div style={{ margin: `10px` }}>
       <h3 style={{ fontSize: `1rem` }}>
         <a href={link} target="_blank" rel="noreferrer" className="card-link">
